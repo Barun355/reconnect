@@ -15,11 +15,8 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className="flex flex-col justify-center items-center w-full">
+      <body className="flex flex-col justify-center items-center">
         <Header />
-        <div className="">
-
-        </div>
         {children}
         <footer className="flex w-full py-4">footer</footer>
       </body>
